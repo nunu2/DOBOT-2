@@ -6,35 +6,35 @@ import datetime
 import urllib
 
 kokoa = LineAlpha.LINE()
-tino = LineAlpha.LINE()
-rize = LineAlpha.LINE()
-chiya = LineAlpha.LINE()
-syaro = LineAlpha.LINE()
-moka = LineAlpha.LINE()
-megu = LineAlpha.LINE()
+#tino = LineAlpha.LINE()
+#rize = LineAlpha.LINE()
+#chiya = LineAlpha.LINE()
+#syaro = LineAlpha.LINE()
+#moka = LineAlpha.LINE()
+#megu = LineAlpha.LINE()
 
 kokoa.login(token="Ej7YaHUXTxGtdbfnz1v3.EhDGNDAOnnY5Q71Ih5Ed4W.0lEdrn3NZ8cUCfgffOM6V2RUsix6q9vM1Ox4ZDNYSq8=")
 kokoa.loginResult()
-tino.login(token="EjHYOuiqaVJN3qtS3Ji8.ycI7RcwrN3L9lxEEaw0Gka.2Ufd6TWoFKK1KpfhVPUsiKAbevHg8ydZaIiB2vYw/Mo=")
-tino.loginResult()
-rize.login(token="EjMyHxf6Lb59iHpdLPL6.WJ5rCz2wuZjEiH3XqqKETG.V3433V24Z2bL4EY1P+/iGN89+tB/McX7q520xFAJ9Ms=")
-rize.loginResult()
-chiya.login(token="EjQCvjsSPnVM68au1ix2.UvGOqKuwX0HLOb2siq7KCG.OZGk+X9amTofiKo+itWBIwdTJLEW2RlU7o3004vjiAA=")
-chiya.loginResult()
-syaro.login(token="EjQ4YLEk8TfIEMUtXnk5.2hseqmedaQXreMW3vyixXq.bu1mg/lDLsqIIa6TIcIh8PmqsqceC2raxjjvH77HMZY=")
-syaro.loginResult()
-moka.login(token="EjYeFC9pkHf0Ngii02D9.gBtchGsw4TDmg/e9sY+O2q.MjhUq6C4eU6HcUSSx1LSAddiWXz5xmXvHFLYIHAPjiA=")
-moka.loginResult()
-megu.login(token="EjvNR97DIzfsThhSc2G3.Ha95CymqKT4F66sUBUpBiW.HY/WowA+tqNyeh+Tj3PIBRRKV5Q6GQgn3hXGO3tKjLE=")
-megu.loginResult()
+#tino.login(token="EjHYOuiqaVJN3qtS3Ji8.ycI7RcwrN3L9lxEEaw0Gka.2Ufd6TWoFKK1KpfhVPUsiKAbevHg8ydZaIiB2vYw/Mo=")
+#tino.loginResult()
+#rize.login(token="EjMyHxf6Lb59iHpdLPL6.WJ5rCz2wuZjEiH3XqqKETG.V3433V24Z2bL4EY1P+/iGN89+tB/McX7q520xFAJ9Ms=")
+#rize.loginResult()
+#chiya.login(token="EjQCvjsSPnVM68au1ix2.UvGOqKuwX0HLOb2siq7KCG.OZGk+X9amTofiKo+itWBIwdTJLEW2RlU7o3004vjiAA=")
+#chiya.loginResult()
+#syaro.login(token="EjQ4YLEk8TfIEMUtXnk5.2hseqmedaQXreMW3vyixXq.bu1mg/lDLsqIIa6TIcIh8PmqsqceC2raxjjvH77HMZY=")
+#syaro.loginResult()
+#moka.login(token="EjYeFC9pkHf0Ngii02D9.gBtchGsw4TDmg/e9sY+O2q.MjhUq6C4eU6HcUSSx1LSAddiWXz5xmXvHFLYIHAPjiA=")
+#moka.loginResult()
+#megu.login(token="EjvNR97DIzfsThhSc2G3.Ha95CymqKT4F66sUBUpBiW.HY/WowA+tqNyeh+Tj3PIBRRKV5Q6GQgn3hXGO3tKjLE=")
+#megu.loginResult()
 
 #blackList
-b = ["u9461ef1176dce5d222b1d24fdbb08d54","ub964dc500b2de8a3b1e591ec50a8ed79","uc23e51719d9653325e221df141091eb6","u6028bbac25919f797d2d779e016d2028","ub95828424516c74865a01d92210ee472","u7877609dd6a834dcb9abbd621f9783e3"]
+b = [""]
 #admins
-dp = ["u5f0e86fcdb62f7ce4f4394aa400983d0"]
+dp = [""]
 rt = ["u5f0e86fcdb62f7ce4f4394aa400983d0","uf0383cc3d7ddcec7cd89cd855fe0ae4e","u56580388daf652254e4afc1dab9d2344","u79cb9ae7e629e9ee426ba565e413b251","ua057f8fe7e0486a9cb9f5d7c5e7dcd9a","ub390307c2e43a38138b555a923ee7b13","u08db961c53276824542d1e90e6242c9d","ufd18e9b10bf240f60e979d91d330eb9d"]
-ad = ["u5f0e86fcdb62f7ce4f4394aa400983d0"]
-ur = ["u5f0e86fcdb62f7ce4f4394aa400983d0"]
+ad = [""]
+ur = [""]
 
 kg = dp + rt + ad + ur
 
